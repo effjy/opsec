@@ -26,7 +26,7 @@ The entire knowledge base lives inside the `/docs` folder. It is structured for 
 - [ ] **Threat Modeling** – risk assessment, attacker profiles, mitigation strategies.
 - [ ] **Checklists** – travel preparation, incident response, account recovery.
 
-📖 **Browse the docs**: [Click here to enter the `/docs` folder](./docs) – every file is a Markdown document, readable directly on GitHub.
+📖 **Browse the docs**: [Click here to enter the `/docs` folder](./) – every file is a Markdown document, readable directly on GitHub.
 
 ---
 
