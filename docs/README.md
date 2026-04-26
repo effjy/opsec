@@ -1,84 +1,62 @@
-# 🛡️ OpSec Documentation Hub
+# 📚 OpSec Documentation Hub
 
-[![Documentation](https://img.shields.io/badge/docs-opsec-blue.svg)](./docs)
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-opsec-blue.svg)](./)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](../LICENSE)
 [![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/effjy/opsec/graphs/commit-activity)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**This repository contains only documentation – no tools, no code.**  
-It is a curated collection of operational security (OpSec) notes, guides, checklists, and threat models covering a wide range of digital security topics.
+Welcome to the **OpSec Documentation Hub** – a curated collection of operational security guides, checklists, and reference material. All documents are written in Markdown and are freely reusable under the CC BY-NC-SA 4.0 license.
 
-> 🚧 **Status**: Continuously updated – new articles added as threats evolve.
+> 📌 **No code, no tools – just knowledge.** These documents are meant to educate, not to be used as attack instructions.
 
 ---
 
-## 📂 What you'll find in the [`/docs`](./docs) directory
+## 📂 Available Documents
 
-The entire knowledge base lives inside the `/docs` folder. It is structured for easy browsing, either directly on GitHub or as a rendered static site (if GitHub Pages is enabled).
-
-### Example topics covered
-
-- [ ] **Identity & Anonymity** – pseudonyms, compartmentation, metadata stripping.
-- [ ] **Network OpSec** – VPNs, Tor, proxychains, DNS leaks, Wi‑Fi hardening.
-- [ ] **Cryptography Basics** – key management, file encryption, secure deletion.
-- [ ] **Device Hardening** – Linux/macOS/Windows security settings, BIOS passwords, disk encryption.
-- [ ] **Operational Tradecraft** – dead drops, secure messengers, air‑gapped workflows.
-- [ ] **Threat Modeling** – risk assessment, attacker profiles, mitigation strategies.
-- [ ] **Checklists** – travel preparation, incident response, account recovery.
-
-📖 **Browse the docs**: [Click here to enter the `/docs` folder](./) – every file is a Markdown document, readable directly on GitHub.
+| File | Description |
+|------|-------------|
+| 🎭 **[identity_anonymity.md](./identity_anonymity.md)** | Deep dive into pseudonyms, personas, compartmentation, metadata reduction, browser fingerprinting, and anonymity networks. Includes operational checklists and real‑world case studies. |
+| 🌐 **[network_opsec.md](./network_opsec.md)** | VPNs vs. Tor, DNS leak prevention, Wi‑Fi hardening, firewalls, traffic analysis countermeasures, and surveillance detection. Practical commands and configuration examples. |
+| 🔐 **[cryptography_basics.md](./cryptography_basics.md)** | Symmetric / asymmetric encryption, hash functions, key derivation (Argon2id), authenticated encryption (AEAD), hybrid cryptosystems, and common pitfalls. |
+| 💻 **[device_hardening.md](./device_hardening.md)** | Hardening guides for Linux, macOS, Windows, iOS, Android. BIOS/UEFI security, full disk encryption, secure deletion, and travel device checklists. |
+| 🕵️ **[operational_tradecraft.md](./operational_tradecraft.md)** | Cover & legend development, secure messaging, dead drops, cut‑outs, countersurveillance, burn procedures, and escape kits. Based on classical espionage tradecraft adapted for digital resistance. |
+| 🎯 **[threat_modeling.md](./threat_modeling.md)** | STRIDE framework, adversary profiling, risk assessment (likelihood × impact), countermeasure selection, and continuous review. Includes example scenarios and actionable checklists. |
+| ✅ **[checklists.md](./checklists.md)** | Daily, weekly, monthly, travel, incident response, identity creation, device setup, password management, and offboarding checklists – all in one ready‑to‑use reference. |
 
 ---
 
-## 🧭 How to use this repository
+## 🧭 How to use this documentation
 
-1. **Read online** – open any `.md` file inside `/docs` and GitHub renders it automatically.  
-2. **Read offline** – clone the repo and use your favourite Markdown viewer.  
-3. **Search** – GitHub's built‑in search works across all documents.  
-4. **Contribute** – see [CONTRIBUTING.md](./CONTRIBUTING.md) (if present) or open an issue to suggest a topic.
-
----
-
-## 🎯 Purpose & audience
-
-This repo is meant for:
-
-- **Security practitioners** – quick reference for field work.  
-- **Privacy‑conscious individuals** – learn how to reduce your digital footprint.  
-- **Students & researchers** – understand common OpSec patterns and failures.  
-- **Anyone** who wants to think like an adversary and protect accordingly.
-
-> ⚠️ **Disclaimer**  
-> The information provided is for educational and defensive purposes only. Always comply with local laws and organisational policies.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have a well‑researched OpSec guide, checklist, or a missing topic, please:
-
-1. Open an issue describing your proposed addition.  
-2. Fork the repo, add your document (Markdown format) inside the appropriate subfolder of `/docs`.  
-3. Submit a pull request.
-
-For style guidelines, refer to the [template](./docs/TEMPLATE.md) (if available).
+1. **Browse directly on GitHub** – all Markdown files are rendered automatically.
+2. **Read offline** – `git clone https://github.com/effjy/opsec` and open with any Markdown viewer.
+3. **Search** – Use GitHub’s search bar within the repository to find specific topics.
+4. **Copy and adapt** – Feel free to use these checklists and guides for your own training, under the terms of the license.
 
 ---
 
 ## 📄 License
 
-This work is licensed under a [Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
-You are free to share and adapt the material for non‑commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
+All documents in this directory are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](../LICENSE).  
+You may share and adapt them for non‑commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
 
 ---
 
-## 🌟 Acknowledgements
+## 🤝 Contributing
 
-- Inspired by the OpSec community on GitHub, Reddit, and various security conferences.  
-- Icons and badges from [shields.io](https://shields.io) and [simpleicons](https://simpleicons.org/).
+Contributions are welcome! If you have a well‑researched OpSec guide, please:
+
+- Open an issue describing your proposed addition.
+- Fork the repo, add your `.md` file to the `/docs` folder.
+- Submit a pull request.
+
+Please follow the existing style (badges, emojis, tables, checklists) for consistency.
 
 ---
 
-**Ready to dive in?** → [Go to the `/docs` folder](./docs) and start reading.  
-For comments or corrections, open an [issue](https://github.com/effjy/opsec/issues).
+## 🔗 Back to main README
+
+Return to the [main repository README](../README.md) for an overview of this project and links to other tools.
+
+---
+
+*These documents are part of the OpSec Documentation Hub. Maintained with ❤️ by Effjy.*
 ```
