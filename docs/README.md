@@ -14,13 +14,14 @@ Welcome to the **OpSec Documentation Hub** – a curated collection of operation
 
 | File | Description |
 |------|-------------|
-| 🎭 **[identity_anonymity.md](./identity_anonymity.md)** | Deep dive into pseudonyms, personas, compartmentation, metadata reduction, browser fingerprinting, and anonymity networks. Includes operational checklists and real‑world case studies. |
-| 🌐 **[network_opsec.md](./network_opsec.md)** | VPNs vs. Tor, DNS leak prevention, Wi‑Fi hardening, firewalls, traffic analysis countermeasures, and surveillance detection. Practical commands and configuration examples. |
+| ✅ **[checklists.md](./checklists.md)** | Daily, weekly, monthly, travel, incident response, identity creation, device setup, password management, and offboarding checklists – all in one ready‑to‑use reference. |
 | 🔐 **[cryptography_basics.md](./cryptography_basics.md)** | Symmetric / asymmetric encryption, hash functions, key derivation (Argon2id), authenticated encryption (AEAD), hybrid cryptosystems, and common pitfalls. |
 | 💻 **[device_hardening.md](./device_hardening.md)** | Hardening guides for Linux, macOS, Windows, iOS, Android. BIOS/UEFI security, full disk encryption, secure deletion, and travel device checklists. |
+| 🎭 **[identity_anonymity.md](./identity_anonymity.md)** | Deep dive into pseudonyms, personas, compartmentation, metadata reduction, browser fingerprinting, and anonymity networks. Includes operational checklists and real‑world case studies. |
+| 🌐 **[network_opsec.md](./network_opsec.md)** | VPNs vs. Tor, DNS leak prevention, Wi‑Fi hardening, firewalls, traffic analysis countermeasures, and surveillance detection. Practical commands and configuration examples. |
 | 🕵️ **[operational_tradecraft.md](./operational_tradecraft.md)** | Cover & legend development, secure messaging, dead drops, cut‑outs, countersurveillance, burn procedures, and escape kits. Based on classical espionage tradecraft adapted for digital resistance. |
 | 🎯 **[threat_modeling.md](./threat_modeling.md)** | STRIDE framework, adversary profiling, risk assessment (likelihood × impact), countermeasure selection, and continuous review. Includes example scenarios and actionable checklists. |
-| ✅ **[checklists.md](./checklists.md)** | Daily, weekly, monthly, travel, incident response, identity creation, device setup, password management, and offboarding checklists – all in one ready‑to‑use reference. |
+| 🐧 **[ubuntu_mate_hardening.md](./ubuntu_mate_hardening.md)** | Complete, extensive hardening guide for Ubuntu MATE 24.04.4 LTS. Covers system updates, user accounts, AppArmor, kernel hardening, firewall (UFW/nftables), SSH security, filesystem partitioning, malware protection, threat modeling, OSINT considerations, and operational checklists. Follows CIS benchmarks. |
 
 ---
 
